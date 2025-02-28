@@ -1,0 +1,289 @@
+.actions {
+    padding: 10px 15px;
+    border: none;
+    background: #573dac;
+    color: white;
+    border-radius: 10px;
+}
+
+.actions option {
+    background: none;
+}
+
+/* .reporting,
+.labeldate {
+    display: flex;
+    align-items: center;
+}
+.labeldate {
+    width: 10%;
+} */
+.reporting {
+    display: flex;
+    align-items: center;
+}
+
+.labeldate {
+    width: 20%;
+}
+
+.dates {
+    width: 80%;
+}
+
+input#time-input {
+    width: 16.2%;
+    padding: 12px 17px;
+    margin-right: 26px;
+    border-radius: 12px;
+    border: 1px solid #bfc0c2;
+}
+
+/* input[type='date']::-webkit-calendar-picker-indicator {
+    margin-left: 6px;
+} */
+
+.proceedPunchout {
+    padding: 10px 100px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.btn_center.MuiBox-root.css-1yuhvjn {
+    display: flex;
+    /* margin: 0px auto; */
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.shadowchanges {
+    width: 13px;
+    /* border-radius: 55px; */
+}
+
+span.notilength {
+    transform: translate(35px, -16px) !important;
+    text-indent: -1px;
+    cursor: default;
+    z-index: 999 !important;
+    background: #6417b2 !important;
+    color: white !important;
+    font-weight: 700 !important;
+    width: 24px !important;
+    border-radius: 50% !important;
+    padding: 3px 6px !important;
+}
+
+.css-12cuf3q {
+    margin-left: 16px;
+    margin-right: 38px;
+}
+
+.notfound {
+    width: 275px;
+}
+
+header {
+    -webkit-box-shadow: 0 10px 10px -10px #000000;
+    -moz-box-shadow: 0 10px 10px -10px #000000;
+    box-shadow: 0 7px 10px -10px #000000 !important;
+}
+
+/* .first_char {
+    border-radius: 50%;
+    background-color: #1e88e5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    margin-right: 10px;
+    height: 40px;
+    color: #fff;
+} */
+/* .leaveDate_cus {
+    width: 100% !important;
+    margin-bottom: 6px;
+    padding: 12px 6px !important;
+} */
+.leaveDate_cus {
+    width: 97.4% !important;
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    /* min-width: 0; */
+    width: 100%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    color: #121926;
+    padding: 16.5px 14px;
+    font-weight: 500;
+    background: #F8FAFC;
+    padding: 15.5px 14px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+    padding: 12px 6px !important;
+}
+
+.weeekend_cus_p9 input {
+    font-size: 16px;
+    border: 1px solid #1e88e5;
+    border-radius: 10px;
+}
+
+.wrap_.notification {
+    display: flex;
+    align-items: center;
+}
+
+
+.first_char {
+    border-radius: 50%;
+    background-color: #1e88e5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 13% !important;
+    margin-right: 10px;
+    height: 40px !important;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.last_char {
+    width: 80%;
+    margin-left: 10px;
+}
+
+main.css-lneya7 {
+    margin-top: 117px;
+}
+
+.custom-class {
+    /* Custom styles for the added class */
+    /* Example styles */
+    font-size: 16px;
+    font-weight: bold;
+    /* Add any other styles you want */
+}
+
+span.center {
+    display: flex;
+    margin: 0px auto;
+    transform: translate(37px, 10px);
+}
+
+.scroll-container {
+    /* width: 300px; */
+    /* Set the width of the container */
+    /* height: 200px; */
+    /* Set the height of the container */
+    /* overflow-x: scroll; */
+    /* Enable horizontal scrolling */
+    scrollbar-width: thin;
+    /* Customize the width of the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 3px;
+    /* Set the width of the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Set the background color of the scrollbar track */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Set the color of the scrollbar thumb */
+}
+
+
+
+h2#modal-modal-title {
+    cursor: default;
+}
+
+.calender_9hd {
+    text-align: center;
+}
+
+.calender_9hd {
+    cursor: default;
+}
+
+.ps__rail-x:hover>.ps__thumb-x,
+.ps__rail-x:focus>.ps__thumb-x,
+.ps__rail-x.ps--clicking .ps__thumb-x {
+    /* background-color: inherit !important; */
+    overflow-y: hidden;
+    height: 0px !important;
+}
+
+button.MuiButton-containedSizeLarge.cancellation.ds_sclose.css-1rquxd0-MuiButtonBase-root-MuiButton-root {
+    margin: 0px;
+}
+
+.css-1gi4963 {
+    border-bottom: 1px solid #efe9e9 !important;
+    padding: 15px !important;
+    height: 40px;
+    /* box-shadow: 0px 8px 10px -5px rgb(0 0 0 / 20%), 0px 16px 24px 2px rgb(0 0 0 / 14%), 0px 6px 30px 5px rgb(0 0 0 / 12%); */
+    margin-bottom: 1px;
+    background-color: #4b90f41c !important;
+    color: #000;
+}
+
+.css-1gi4963:hover {
+    border-bottom: 1px solid #efe9e9 !important;
+    padding: 15px !important;
+    height: 40px;
+    /* box-shadow: 0px 8px 10px -5px rgb(0 0 0 / 20%), 0px 16px 24px 2px rgb(0 0 0 / 14%), 0px 6px 30px 5px rgb(0 0 0 / 12%); */
+    margin-bottom: 1px;
+    background-color: #2f7cf11c !important;
+    color: #000 !important;
+}
+
+
+/* Media Query for Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .proceedPunchout {
+        padding: 10px 40px;
+    }
+}
+
+.dsr-rows a{
+    text-decoration: none;
+}
+
+.dsr-reports{
+    cursor: pointer;
+}
+
+.dsr{
+    background-color: #fff;
+}
+
+.fromdetails p {
+    padding: 12px 20px;
+    background: #EDE7F6;
+    border-radius: 4px;
+    color: #673AB7;
+}
+
+.preview{
+    padding: 20px;
+    background: #EDE7F6;
+}

@@ -1,0 +1,28 @@
+.scrums{
+    background-color: #fff;
+}
+
+.fromdetails p {
+    padding: 12px 20px;
+    background: #EDE7F6;
+    border-radius: 4px;
+    color: #673AB7;
+}
+.preview{
+    padding: 20px;
+    background: #EDE7F6;
+}
+/* .scrumrows{
+    display: grid;
+    grid-auto-flow: column;
+} */
+.scrumrows a{
+    text-decoration: none;
+}
+.scrumreports{
+    cursor: pointer;
+}
+/* .css-zjxnjz-MuiTableRow-root {
+    display: grid;
+    grid-auto-flow: column;
+} */

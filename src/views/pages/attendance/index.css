@@ -1,0 +1,553 @@
+/* work place status */
+.d-flex {
+    display: block;
+}
+.header_popup {
+    background: antiquewhite;
+    padding: 10px;
+}
+
+.workplace_content {
+    margin: 0px;
+    padding: 0px 10px;
+}
+.workplace_button {
+    padding: 7px 10px;
+}
+/* end */
+
+
+.attendance input {
+    padding: 10px 24px;
+    font-size: 16px;
+    /* margin-bottom: 10px; */
+    border: 1px solid #1e88e5;
+    border-radius: 10px;
+}
+
+.leavedates.cus_leave_ub label {
+    display: flex;
+    margin-left: 5px !important;
+}
+
+.attendance.leavedates.flex_cus_8g_k input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 90%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    color: #121926;
+    padding: 16.5px 14px;
+    font-weight: 500;
+    background: #F8FAFC;
+    padding: 15.5px 14px;
+    border-radius: 12px;
+}
+
+.attendance.leavedates.flex_cus_8g_k {
+    display: flex;
+}
+
+.leavedates.cus_leave_ub.margin_left_cus {
+    margin-left: 21px;
+}
+
+.leavedates.cus_leave_ub {
+    width: 47.5%;
+}
+
+/* .attendance input:nth-child(2) {
+    margin-left: 10px;
+} */
+.attendance input:nth-child(2) {
+    margin-left: 3px;
+}
+
+.fc .fc-button-primary {
+    margin-right: 1px;
+    background-color: #6900b4;
+    border-color: none;
+    /* color: var(--fc-button-text-color); */
+}
+
+.attendance {
+    /* border: 1px solid #6142b2;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px; */
+    padding-left: 15px;
+    margin-bottom: 10px;
+    background: #e3f2fd;
+    border-radius: 10px;
+}
+
+.settingbutton {
+    display: flex !important;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.settingbutton button:nth-child(1) {
+    margin-left: 10px;
+}
+
+.settingbutton button:nth-child(2) {
+    background: #1e88e5 !important;
+}
+
+.editor-input .ql-container {
+    height: 30vh;
+}
+
+.cancellation {
+    margin-left: 10px;
+}
+
+.popup_scrum {
+    display: flex;
+}
+
+.buttonsettings {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.scrum_to .react-tagsinput {
+    border: 1px solid #c5c7c9;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 8px;
+    overflow: unset;
+}
+
+.scrum_to .react-tagsinput-input {
+    margin-top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 0;
+    color: #121926;
+    font-weight: 500;
+}
+
+.scrum_to {
+    position: relative;
+}
+
+.react-tagsinput-tag {
+    background-color: #5e35b1;
+    border-radius: 6px;
+    border: 1px solid #5e35b1;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.cc {
+    background: #6142b2;
+    color: #fff;
+    border: none;
+    width: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center !important;
+    position: absolute;
+    right: 7%;
+    top: -1%;
+}
+
+svg.close_icon {
+    position: absolute;
+    background: black;
+    color: white;
+    top: 34%;
+    right: -1%;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 99999999;
+}
+
+.scrumbtns {
+    justify-content: space-between;
+}
+
+.withdescription p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.from_date,
+.to_date {
+    padding: 8px 40px;
+    border-radius: 10px;
+}
+
+.to_date {
+    background-color: #2196f373;
+}
+
+.ccs div {
+    background: none !important;
+}
+
+.pending,
+.assigned {
+    text-align: center;
+    border-radius: 6px;
+}
+
+.pending {
+    background: #d84315;
+    color: white;
+    /* padding: 9px 3px; */
+    padding: 4px 26px;
+    /* width: max-content; */
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.assigned {
+    background: #ffe57f;
+    /* padding: 9px 15px; */
+    padding: 4px 12px;
+}
+
+div.loading {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.loading {
+    /* height: 200px; */
+    position: relative;
+    /* border: 3px solid green; */
+}
+
+.duedate input#start-date {
+    border-radius: 12px;
+    padding: 13px;
+    /* margin-bottom: 13px; */
+    border: 1px solid #bfc0c2;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+    margin-left: 6px;
+}
+
+/* .green {
+    text-align: center;
+    border-radius: 6px;
+    background: #00c853;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+} */
+.green {
+    text-align: center;
+    border-radius: 6px;
+    background: #00c853;
+    color: white;
+    /* padding: 9px 3px; */
+    padding: 4px 21px;
+    /* width: max-content; */
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+button.back_to_scrum {
+    outline: none;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}
+
+button.back_to_scrum {
+    align-content: center;
+    outline: none;
+    border-radius: 6px;
+    display: flex;
+    text-indent: 6px;
+    background: #4b90f4;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}
+
+button.back_to_scrum :hover {
+    background: #5596f4 !important;
+    color: #fff !important;
+}
+
+button.fc-prev-button.fc-button.fc-button-primary {
+    border-right: 1px solid !important;
+    /* border: 1px solid; */
+}
+
+button.fc-dayGridWeek-button.fc-button.fc-button-primary {
+    border-right: 1px solid;
+}
+
+.Disapproved {
+    text-align: center;
+    border-radius: 6px;
+
+    background: #d5b248;
+    color: white;
+    /* padding: 9px 3px; */
+    padding: 4px 12px;
+    /* width: max-content; */
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.reasonField input {
+    padding-bottom: 70px;
+}
+
+.punchin {
+    padding: 10px 100px;
+    border-radius: 10px;
+}
+
+.leave {
+    text-align: center;
+}
+
+.leavedates {
+    padding-left: 0;
+    background: unset !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+}
+
+.leavedates input {
+    width: 35%;
+}
+
+.leaveManagement {
+    margin-top: 10px;
+}
+
+.leaveViewDate {
+    padding: 8px 15px;
+}
+
+.leaveDate {
+    border: 1px solid #c4c5c7 !important;
+}
+
+.leavetoDate {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+span.green.approved {
+    padding: 4px 22px;
+}
+
+a.fc-event {
+    margin-top: 20px !important;
+}
+
+.css-wlxgrs-MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused {
+    background-color: #673ab7;
+}
+
+.fc-daygrid-event-harness {
+    margin-top: 3px !important;
+}
+
+/* .calender_9hd {
+    margin-top: 20px;
+    padding: 0px 17px 0px 17px;
+} */
+
+/* .right_btn {
+        display: flex;
+        justify-content: start;
+        margin: 14px 22px;
+    } */
+
+.MuiBox-root.css-xeh2of {
+    padding: 25px;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):active {
+    background-color: #6417b2;
+    border-color: none;
+    color: var(--fc-button-text-color);
+}
+
+.fc .fc-button-primary:disabled {
+    background-color: #6417b2;
+    border-color: none;
+    color: var(--fc-button-text-color);
+}
+
+.fc .fc-button-primary {
+    background-color: #6900b4;
+    border-color: none;
+    color: var(--fc-button-text-color);
+}
+
+.fc .fc-button-primary:hover {
+    background-color: #6900b4;
+    border-color: none;
+    color: var(--fc-button-text-color);
+}
+
+/* span.is9_fields {
+    font-family: 'Roboto';
+    font-size: 14px;
+    display: flow-root;
+} */
+
+.s_bhu98 {
+    overflow-X: hidden !important;
+}
+
+/* .css-1fge4rw {
+    cursor: pointer;
+    overflow-X: hidden;
+    padding: 16px;
+} */
+
+.scrollbar-container.ps.ps--active-y {
+    height: 100%;
+    max-height: calc(100vh - 205px);
+    overflow-X: hidden !important;
+}
+
+.title {
+    margin: 15px 0px;
+    text-align: center;
+    font-size: 19px !important;
+}
+
+.dates_8s {
+    text-align: center;
+    /* font-size: 18px !important; */
+}
+
+ul.MuiList-root.MuiList-padding.scrollbar-container.scrool_dfguyd.ps.css-ob31zk-MuiList-root {
+    overflow-x: hidden !important;
+}
+
+/* .MuiBox-root.css-xeh2of {
+    border: none !important;
+    padding: 0px
+} */
+
+.MuiBox-root.css-xeh2of.popup_s {
+    border: none !important;
+    padding: 0px
+}
+
+.ps__rail-x {
+    display: none;
+    width: 0px !important;
+    overflow: hidden !important;
+}
+
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+    min-height: 2em;
+    position: initial;
+}
+
+span.pending_0dh {
+    padding: 4px 27px;
+    /* width: 65px !important; */
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):active {
+    background-color: #5e00b9;
+    /* border-left: 1px solid #fff;
+    border-right: 1px solid #fff; */
+    border-color: none;
+    color: var(--fc-button-text-color);
+}
+
+button.fc-dayGridMonth-button.fc-button.fc-button-primary.fc-button-active {
+    border-right: 1px solid;
+}
+
+@media only screen and (max-width: 767px) {
+    .attendance input {
+        padding: 10px 6px;
+    }
+
+    .attendance button {
+        padding: 10px 22px;
+    }
+
+    .attendance.buttonsettings button {
+        padding: 10px;
+    }
+}
+
+/* Media Query for IPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .attendance input {
+        padding: 10px 16px;
+    }
+}
+
+/* Media Query for Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .punchin {
+        padding: 10px 40px;
+    }
+
+    .settingbutton {
+        display: block !important;
+        text-align: center;
+    }
+
+    .attendance {
+        padding-left: unset;
+        margin-bottom: unset;
+        padding: 20px;
+    }
+
+    .attendance input:nth-child(2) {
+        margin-left: unset;
+        margin-top: 10px;
+    }
+
+    .from_date,
+    .to_date {
+        padding: 8px 28px;
+    }
+
+    /* .AllTabs {
+        overflow: auto;
+    } */
+    .MuiTabs-scroller.MuiTabs-fixed.css-jpln7h-MuiTabs-scroller {
+        overflow-x: auto !important;
+    }
+}
