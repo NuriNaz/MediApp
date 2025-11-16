@@ -1,117 +1,82 @@
-# Berry Free React Material UI Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.io&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
+💊 MedMine – Medicine Data Management & Insights Platform
+📌 Project Overview
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/berry-free-react-admin-template/blob/main/LICENSE)
-[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/berry-free-react-admin-template)](https://github.com/codedthemes/berry-free-react-admin-template/)
+MedMine is a medicine data management system designed to store, organize, and analyze large sets of pharmaceutical data.
+It helps users (pharmacists, healthcare staff, researchers, or admins) access accurate medicine information, monitor usage patterns, and quickly retrieve drug-related details.
 
-Berry is a free Material UI admin dashboard template built with React. It is meant to provide the best possible User Experience with highly customizable feature-rich pages. It is a complete Dashboard Template that has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
+The project focuses on providing a centralized platform where all medicine data is easily searchable, categorized, and displayed in an intuitive dashboard.
 
-:star: :star: :star: Do not forget to star (Top right of this page) it if you like the theme :star: :star: :star:
+🚀 Key Features
+🧾 Medicine Database
 
-![IMG_8566.jpg](https://berrydashboard.io/imp-images/berry-github-free-repo-1.jpg)
+Store complete medicine information
 
-[Pro version](https://berrydashboard.io) of Berry react template contains features like TypeScript, Next.js Seed versions, Apps, Authentication Methods (i.e. JWT, Auth0, Firebase), Advance Components, Form Plugins, Layouts, Widgets, and many more.
+Includes name, category, brand, composition, price, stock, expiry date, etc.
 
-| [Berry Free](https://berrydashboard.io/free/) | [Berry](https://material-ui.com/store/items/berry-react-material-admin/) |
-| --------------------------------------------- | :----------------------------------------------------------------------- |
-| **9** Demo pages                              | **45+** demo pages                                                       |
-| -                                             | ✓ Multi-language                                                         |
-| -                                             | ✓ Dark/Light Mode 🌓                                                     |
-| -                                             | ✓ TypeScript version                                                     |
-| -                                             | ✓ Design files (Figma)                                                   |
-| -                                             | ✓ 6+ color Options                                                       |
-| -                                             | ✓ RTL                                                                    |
-| -                                             | ✓ JWT, Firebase, Auth0 authentications                                   |
-| -                                             | ✓ [More components](https://berrydashboard.io/dashboard/default)         |
+Easy add/edit/delete capabilities
 
-## Why Berry?
+🔍 Advanced Search & Filters
 
-Berry offers everything you need to create dashboards. We have included the following high-end features in our initial release:
+Search medicines by name, category, brand, or symptoms
 
--   Modern aesthetics UI design
--   Material-UI components
--   Fully Responsive, all modern browser supported
--   Easy to use code structure
--   Flexible & High-Performance code
--   Easy Documentation Guide
+Filter medicines by stock level, expiry status, or price range
 
-## Free Berry React version
+📊 Analytics Dashboard
 
--   [Preview](https://berrydashboard.io/free/)
--   [Download from Github](https://github.com/codedthemes/berry-free-react-admin-template)
+Summary of total medicines
 
-## Berry Pro version
+Expiring soon, low-stock alerts
 
--   [Preview](https://berrydashboard.io)
--   [Purchase from MUI Store](https://material-ui.com/store/items/berry-react-material-admin/)
+Category-wise medicine distribution
 
-## Table of contents
+Visual charts for better insights
 
--   [Getting Started](#getting-started)
--   [Documentation](#documentation)
--   [Technology Stack](#technology-stack)
--   [Author](#author)
--   [Issues?](#issues)
--   [License](#license)
--   [More Products](#more-free-react-material-admin-templates)
--   [Follow us](#follow-us)
+📦 Inventory Monitoring
 
-## Getting Started
+Track stock availability
 
-Clone from Github
+Highlight medicines running low
 
-```
-git clone https://github.com/codedthemes/berry-free-react-admin-template.git
-```
+Monitor expiry dates to reduce waste
 
-## Documentation
+📥 PDF Export (if included)
 
-[Berry documentation](https://codedthemes.gitbook.io/berry/) helps you with installation, deployment, and troubleshooting.
+Download medicine list or inventory summary as a PDF
 
-## Technology Stack
+Useful for audits, reports, or sharing with staff
 
--   [Material UI V5](https://material-ui.com/)
--   Built with React Hooks API
--   Redux & React Context API for State Management
--   React Router for Navigation Routing
--   Support of react-script
--   Code Splitting
--   CSS-in-JS where CSS is composed using JavaScript instead of defined in external files
+🖥️ Modern User Interface
 
-## Author
+Clean, responsive layout
 
-Berry is developed by Team [CodedThemes](https://codedthemes.com).
+Built with reusable components
 
-## Issues
+Easy navigation for quick data viewing
 
-To report a bug, please submit an [issue](https://github.com/codedthemes/berry-free-react-admin-template/issues) on Github. We will respond as soon as possible to resolve the issue.
+🛠️ Technologies Used
 
-## License
+React.js – Frontend UI
 
--   Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
+Context API / Redux – State management
 
-## Berry - Nodejs version by Appseed
+JSON / API structure – Medicine data handling
 
--   [Free Nodejs](https://appseed.us/product/react-node-js-berry-dashboard)
--   [Premium Berry Nodejs](https://appseed.us/full-stack/react-berry-dashboard)
+Chart.js / Recharts – Data visualization
 
-## More Free React Material Admin Templates
+Tailwind CSS / CSS – Styling and layout
 
--   [Free Materially](https://codedthemes.com/item/materially-free-reactjs-admin-template/)
--   [Free Mantis](https://mantisdashboard.io/free/)
+jsPDF / react-pdf – PDF export functionality (if used)
 
-[![IMG_8566.jpg](https://camo.githubusercontent.com/a2364ad8c498b2a7378dae5e1a5eb5d8e1fcb2d6ceeb8b54acdc2e8bc2508775/68747470733a2f2f6d616e74697364617368626f6172642e696f2f6164762d62616e6e65722d696d616765732f6f672d736f6369616c2e706e67)](https://mantisdashboard.io/free/)
+🎯 Purpose of the Project
 
-## More Premium React Material Admin Templates
+MedMine is built to:
 
--   [Mantis](https://mui.com/store/items/mantis-react-admin-dashboard-template/)
--   [Materially](https://codedthemes.com/item/materially-reactjs-admin-dashboard/)
+Organize and manage large sets of medicine-related data
 
-## Follow us
+Help users track medicine availability and expiry
 
--   [Website](https://berrydashboard.io)
--   [Blog](https://blog.berrydashboard.io)
--   [CodedThemes](https://codedthemes.com)
--   [Dribbble](https://dribbble.com/codedthemes)
--   [Facebook](https://www.facebook.com/codedthemes)
--   [Twitter](https://twitter.com/codedthemes)
+Provide insights using dashboards and charts
+
+Improve accessibility and accuracy of pharmaceutical information
+
+Showcase skills in React.js, UI development, and data visualization
